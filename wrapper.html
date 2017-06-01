@@ -71,16 +71,21 @@
       {% block content %}{% endblock %}
       
       <div class="ak-page-footer">
+		  <div style="width:100%;height:20px;clear:both;float:none"></div>
         <div class="ak-page-footer-contents">
-          <a href="http://winwithoutwar.org/" class="footer-org-logo">
-            <img src="https://s3.amazonaws.com/aktest-2011/images/Win_Without_War_Logo_Horizontal_Color_LARGE.png" alt="Win Without War">
+          <a href="http://winwithoutwar.org/" class="footer-org-donate">
+            Donate to Win Without War
           </a>
           <div class="footer-fineprint">				
-            <span>{% ifequal page.type "Unsubscribe" %}By submitting this form, you will be unsubscribed from Win Without War.{% else %}
-              {% if not filename|split:'.'|nth:0 = "thanks" %}
-              By submitting this form, you will be subscribed to receive messages from Win Without War.
-              {% endif %}
-              {% endifequal %}</span>
+			  <div id="footer-social">
+					<a class="facebookBtn smGlobalBtn" href="https://facebook.com/winwithoutwar" >
+						<img src="https://s3.amazonaws.com/aktest-2011/images/icon-fb.svg" alt="Facebook" />
+					</a>
+					<a class="twitterBtn smGlobalBtn" href="https://twitter.com/winwithoutwar" >
+						<img class="twicon" src="https://s3.amazonaws.com/aktest-2011/images/icon-twitter.svg" alt="Twitter" />
+					</a>
+				</div>
+
           </div> <!-- .footer-fineprint -->
         </div> <!-- ak-page-footer-contents -->
       </div> <!-- .ak-page-footer -->
@@ -135,5 +140,20 @@
      $('label[for="id_mobile_phone"]').html('Phone number*');
  });
 </script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1771380886441876'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1771380886441876&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
 </body>
 </html>
