@@ -1246,19 +1246,19 @@ a.ak-share-button {
 
 /* facebook button class*/
 .facebookBtn{
-    background: #4060A5;
+    background: #3b5998;
 }
 
 .facebookBtn:hover{
-    background: #273c69;
+    background: #293d67;
 }
 
 /* twitter button class*/
 .twitterBtn{
-    background: #00ABE3;
+    background: #0084b4;
 }
 .twitterBtn:hover{
-      background: #0198c9;
+      background: #005f82;
 }
 /* Accent box around a group of fields
    ========================================================================== */
