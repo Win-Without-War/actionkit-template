@@ -1,0 +1,14 @@
+Subject: {% if user.id == event.creator.id and "moderation_not_approved"|is_in:event.notes %}Your event has been declined.{% else %}Event on {{ event.starts_at|date:'N j' }} cancelled{% endif %}
+
+{% if user.id == event.creator.id and "moderation_not_approved"|is_in:event.notes %}
+<p style="font-weight: 400; font-size: 17px; line-height: 130%;">Our staff has reviewed your event and was unable to approve its posting. Want to take another try? Reply to this email and we can let you know some more details as to why this wasn't approved.</p>
+
+{% else %}
+<p style="font-weight: 400; font-size: 17px; line-height: 130%;">We're sorry to have to tell you that the upcoming OFF Fossil Fuels event you RSVPed for has been cancelled. But that doesn't mean our work here is done -- far from it. Will you step up to the plate? <a href="https://{% client_ssl_domain %}/event/{{ campaign.local_name }}/create/">Host your own event here.</a> Or, if you want: <a href="https://{% client_ssl_domain %}/event/{{ campaign.local_name }}/search/">check out other events in the area here.</a></p>
+{% endif %}
+
+<!-- Replacement for unsubscribe. -->
+<p><small>
+  You received this message because you were signed up for an event.
+  You won't receive any more messages about this event.
+</small></p>

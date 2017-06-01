@@ -1,0 +1,138 @@
+{% load actionkit_tags %}
+<!DOCTYPE html>
+<html lang="{{page.lang.iso_code|default:'en'}}"{% if page.lang.is_rtl %} dir="rtl"{% endif %}>
+<head>
+    <meta charset="utf-8">
+    <script>startTime=new Date()</script>
+    <meta name="application-name" content="Win Without War"/>
+
+    <link rel="icon" type="image/png" href="http://winwithoutwar.org/wp-content/uploads/2014/01/favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    {% if event.is_open_for_signup %}
+    <title>Win Without War Event in {{ event.city_etc_no_postal }}</title>
+    <meta property="og:url" content="http://{% client_domain %}/event/{{ campaign.name }}/{{ event.id }}/" />    
+    <meta property="og:image" content="https://s3.amazonaws.com/aktest-2011/images/winwithoutwarsocial.png" />
+    <meta property="og:title" content="Join a Win Without War event in {{ event.city_etc_no_postal }}" />
+    <meta name="description" property="og:description" content="Will you join me on {{ event.starts_at|date:"l M jS" }}?" />
+    <meta property="og:site_name" content="Win Without War">
+    <meta name="twitter:card" value="summary_large_image">
+    {% else %}
+    <title>{% block title %}{{ page.title }} | {% filter ak_text:"org_name" %}{% client_name %}{% endfilter %}{% endblock %}</title>
+    {{ page.followup.share_title_tag }}
+    {% if form.id %}<meta name="description" property="og:description" content="{% block description %}{{ page.followup.share_description_value }}{% endblock %}">{% endif %}
+    {{ page.followup.share_image_tag }}
+    {{ page.followup.share_url_tag }}
+    <meta property="og:site_name" content="{% filter ak_text:"org_name" %}{% client_name %}{% endfilter %}">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" value="summary_large_image">    	
+    {% endif %}
+    <meta name="twitter:site" content="@winwithoutwar">
+    <meta name="twitter:creator" content="@winwithoutwar">
+    {% block meta_additions %}{% endblock %}
+
+    {% block css_additions %}{% endblock %}
+
+    {% load_ak_context context %}
+    {% load_js %}
+        https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js
+        /resources/actionkit.js
+    {% end %}
+
+    <style>
+     .ak-labels-before label.ak-event-category-checkbox-label {
+         top: -5px;
+     }
+    </style>
+    {% block script_additions %}{% endblock %}
+
+    {% if page.custom_fields.code_head %}
+    {% include_tmpl page.custom_fields.code_head %}
+    {% endif %}
+
+    <style type="text/css">
+      {% include "custom_styles.css" %}
+    </style>
+    
+</head>
+<body class="ak-pagetype-{{ filename|split:'.'|nth:0 }} ak-lang-{{page.lang.iso_code|default:"unknown"}}{% if page.lang.is_rtl %} ak-rtl{% endif %} ak-no-js">
+    <script type="text/javascript">actionkit.forms.initPage()</script>
+
+    <div class="ak-page-header">
+      <div class="ak-page-header-contents">
+        <img src="https://s3.amazonaws.com/aktest-2011/images/Win_Without_War_Logo_Horizontal_Color_LARGE.png" alt="Win Without War" />
+        <div class="ak-page-nav"></div>
+      </div>
+    </div>
+
+    <div class="ak-page-container">
+
+      {% block content %}{% endblock %}
+      
+      <div class="ak-page-footer">
+        <div class="ak-page-footer-contents">
+          <a href="http://winwithoutwar.org/" class="footer-org-logo">
+            <img src="https://s3.amazonaws.com/aktest-2011/images/Win_Without_War_Logo_Horizontal_Color_LARGE.png" alt="Win Without War">
+          </a>
+          <div class="footer-fineprint">				
+            <span>{% ifequal page.type "Unsubscribe" %}By submitting this form, you will be unsubscribed from Win Without War.{% else %}
+              {% if not filename|split:'.'|nth:0 = "thanks" %}
+              By submitting this form, you will be subscribed to receive messages from Win Without War.
+              {% endif %}
+              {% endifequal %}</span>
+          </div> <!-- .footer-fineprint -->
+        </div> <!-- ak-page-footer-contents -->
+      </div> <!-- .ak-page-footer -->
+      
+    </div>
+
+    {% block below_form %}
+    <script type="text/javascript">
+     actionkit.forms.contextRoot = '/context/';
+     actionkit.forms.initForm('act');
+    </script>
+    {% endblock %}
+    
+    <script type="text/javascript">
+     $(window).load(function() {
+         
+         function truncate_read_more() {
+             var ak_text_expander_height = $('.ak-text-expander').height();
+             $('.ak-text-expander').css('max-height','4.5em');
+             var ak_text_expander_height_truncated = $('.ak-text-expander').height();
+             //console.log(ak_text_expander_height, 'original height');
+             //console.log(ak_text_expander_height_truncated, 'new height');
+             if (ak_text_expander_height !== ak_text_expander_height_truncated) {
+                 $('.ak-text-expander').addClass('ak-truncated');
+             }
+             if ($(window).width() >= 480){    
+                 $('.ak-text-expander').css('max-height','none');
+                 $('a.ak-read-more').hide();
+             } else {
+                 $('.ak-text-expander.ak-truncated + a.ak-read-more').show();
+             }
+             
+             $('.ak-read-more').on('click', function() {
+                 $('.ak-text-expander').css('max-height','100%')
+                                       .css('margin-bottom','10px');
+                 $(this).hide();
+             });
+         }
+         if ($('.ak-text-expander').length) {
+             $(window).on('resize', truncate_read_more);
+             truncate_read_more();
+         }
+     });
+    </script>
+    
+    {% comment %}
+  
+   
+{% endcomment %}
+<script>
+ $(window).load( function() {
+     $('label[for="id_mobile_phone"]').html('Phone number*');
+ });
+</script>
+</body>
+</html>

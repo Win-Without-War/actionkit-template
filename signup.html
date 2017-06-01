@@ -1,0 +1,26 @@
+{% extends "./wrapper.html" %}{% load actionkit_tags %}
+
+{% block content %}
+
+{% load_remember_me %}
+
+<div class="ak-grid-row titlerow">
+  <div class="ak-grid-col ak-grid-col-12-of-12">
+    <h2>{{ page.title }}</h2>
+  </div>
+</div>
+
+<form class="action_form" name="act" method="POST" action="/act/" accept-charset="utf-8">  
+  <div class="ak-grid-row">
+    {% if page.custom_fields.stack_form_and_content %}
+      {% include "signup_form.html" %}
+      {% include "signup_content.html" %}
+    {% else %}
+      {% include "signup_content.html" %}
+      {% include "signup_form.html" %}
+    {% endif %}
+  </div>    
+  <input type="hidden" name="page" value="{{ page.name }}">
+</form>
+
+{% endblock %}

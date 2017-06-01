@@ -1,0 +1,15 @@
+<div id="signup-story" class="ak-grid-col {% if page.custom_fields.stack_form_and_content %}ak-grid-col-12-of-12{% else %}ak-grid-col-6-of-12{% endif %}">
+  {% if page.custom_fields.featured_image %}
+  <img class="ak-featured-img" src="{{page.custom_fields.featured_image}}">
+  {% endif %}
+  
+  {% autoescape off %}
+  <div class="ak-abovefold">
+    {% include_tmpl form.introduction_text %}
+  </div>
+  {% endautoescape %}
+  
+  <div class="ak-mobile-lead"></div>
+  
+  {% include "./progress_meter.html" %}
+</div>

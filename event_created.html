@@ -1,0 +1,12 @@
+{% extends "./wrapper.html" %}
+{% load actionkit_tags %}
+
+{% block content %}
+<div class="ak-grid-row">
+    <div class="ak-grid-col ak-grid-col-12-of-12">
+        <h2>Thanks for submitting your event!</h2>
+        <p>You'll need to confirm your event before it goes live, and our staff is going to give it a once-over to make sure you're set up for success.</p>
+        <p>Check your email {% if args.email %}at {{args.email}}{% endif %} to finish creating your event.</p>
+    </div>
+</div>
+{% endblock %}

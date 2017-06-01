@@ -1,0 +1,23 @@
+{% if templateset.custom_fields.event_categories and event.custom_fields.event_category %}
+<div class="ak-event-categories">
+  {% for category in event.custom_fields.event_category|force_list %}
+  <strong data-category="{{ category }}">{{ templateset.custom_fields.event_categories|load_json|nth:category|nth:"label"|default:category }}</strong>
+  {% endfor %}
+</div>
+{% endif %}
+<style type="text/css">
+ .ak-event-categories > strong:not(:last-child)::after {
+     content: " • ";
+     font-weight: 100;
+ }
+</style>
+<script type="text/javascript">
+ $(window).load(function() {
+     if ($(".ak-event-categories strong[data-category=other]").length === 1) {
+         $(".ak-event-categories strong[data-category=other]").appendTo(
+             $(".ak-event-categories strong[data-category=other]").parent()
+         );
+     }
+ });
+</script>
+
