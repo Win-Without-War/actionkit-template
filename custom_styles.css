@@ -1,301 +1,3 @@
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTQ7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek-ext */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTZ6vnaPZw6nYDxM4SVEMFKg.woff2) format('woff2');
-  unicode-range: U+1F00-1FFF;
-}
-/* greek */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTfy1_HTwRwgtl1cPga3Fy3Y.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTfgrLsWo7Jk1KvZser0olKY.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTYjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01m4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/RjgO7rYTmqiVp7vzi-Q5UYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek-ext */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/LWCjsQkB6EMdfHrEVqA1KYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+1F00-1FFF;
-}
-/* greek */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/xozscpT2726on7jbcb_pAoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/59ZRklaO5bWGqF5A9baEEYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* cyrillic-ext */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzA7aC6SjiAOpAWOKfJDfVRY.woff2) format('woff2');
-  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBdwxCXfZpKo5kWAx_74bHs.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* greek-ext */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzJ6vnaPZw6nYDxM4SVEMFKg.woff2) format('woff2');
-  unicode-range: U+1F00-1FFF;
-}
-/* greek */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzPy1_HTwRwgtl1cPga3Fy3Y.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzPgrLsWo7Jk1KvZser0olKY.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzIjoYw3YTyktCCer_ilOlhE.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-/* cyrillic */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 200;
-  src: local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v13/Svfm3D5QBEfoZ_ZQasqgUoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 200;
-  src: local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v13/s6Iy20priLS4loU5HhjUs4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 200;
-  src: local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v13/GwZ_PiN1Aind9Eyjp868E4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 200;
-  src: local('Oswald ExtraLight'), local('Oswald-ExtraLight'), url(https://fonts.gstatic.com/s/oswald/v13/gov12z69psR1Uu7UJEfiUpBw1xU1rKptJj_0jans920.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v13/C6GGSmqIX4ribdvhAcF3zX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v13/Z47oc0BtjIgiXLu7VsCGjX-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v13/Qw6_9HvXRQGg5mMbFR3Phn-_kf6ByYO6CLYdB4HQE-Y.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Oswald Regular'), local('Oswald-Regular'), url(https://fonts.gstatic.com/s/oswald/v13/_P8jt3Y65hJ9c4AzRE0V1OvvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Oswald SemiBold'), local('Oswald-SemiBold'), url(https://fonts.gstatic.com/s/oswald/v13/FPi-c3aUC3zvYWzrDQQz-4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Oswald SemiBold'), local('Oswald-SemiBold'), url(https://fonts.gstatic.com/s/oswald/v13/easTUkYIpjx9W4QcIr8U1IX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Oswald SemiBold'), local('Oswald-SemiBold'), url(https://fonts.gstatic.com/s/oswald/v13/FVV1uRqs2-G7nbyX6T7UGYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 600;
-  src: local('Oswald SemiBold'), local('Oswald-SemiBold'), url(https://fonts.gstatic.com/s/oswald/v13/y5-5zezrZlJHkmIVxRH3BZBw1xU1rKptJj_0jans920.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-/* cyrillic */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v13/smkSb2csQFrK-wxLDSe5R4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
-}
-/* vietnamese */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v13/69aXBpgQONjr_rHWADjBuYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
-}
-/* latin-ext */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v13/dI-qzxlKVQA6TUC5RKSb34X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
-}
-/* latin */
-@font-face {
-  font-family: 'Oswald';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Oswald Bold'), local('Oswald-Bold'), url(https://fonts.gstatic.com/s/oswald/v13/bH7276GfdCjMjApa_dkG6ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
 /* ==========================================================================
    ak-modern.css
 
@@ -312,7 +14,7 @@
  */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: "Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
 }
@@ -646,14 +348,13 @@ body {
   margin-top: 0;
 }
 .ak-page-header img {
-  max-width:325px;
+  max-width:450px;
   width:100%;
   margin:15px auto;
 }
 
 div.ak-page-container {
   background: #fff;
-  padding-top: 1.5em;
   padding-bottom: 1.5em;
 }
 
@@ -765,7 +466,7 @@ figure { margin: 1em 40px; } /* Add the correct margin in IE 8. */
 hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ } /* 1. Add the correct box sizing in Firefox. 2. Show the overflow in Edge and IE. */
 
 html {
-  font-family: "Open Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-family:"Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   font-size: 15.5px;
   font-weight: 300;
   line-height: 22px;
@@ -806,7 +507,7 @@ a.ak-highlight-on-hover:hover { text-decoration: underline; color: #31a8f0; }
 /* Used for site title */
 h1 { font-size: 2em; margin: 0.67em 0; font-weight: 600; }
 /* Used for page title */
-h2 { font-size: 48px; line-height: 50px; font-weight: 700; color: #272F32; }
+h2 { font-size: 48px; line-height: 50px; font-weight: 700; color: #4a4a4a; }
 @media screen and (min-width: 600px) { h2 { margin: 24px 0 10px; } }
 /* Used for page section headings */
 h3 { font-size: 22px; line-height: 30px; font-weight: 200; margin: 18px 0 4px; /* new margins for event create. double check it's ok elsewhere. if not, add body.ak-pagetype-event_create to the 2nd margin line & uncomment the 1st.... */ }
@@ -814,7 +515,7 @@ h3 { font-size: 22px; line-height: 30px; font-weight: 200; margin: 18px 0 4px; /
 h4 { font-size: 16px; line-height: 20px; font-weight: 600; margin: 10px 0 4px; }
 /* Used for small headings */
 h5 { font-weight: 200; text-transform: uppercase; margin: 10px 0; }
-.subA { font-family: Oswald; font-weight: 600; text-transform: uppercase; font-size: 20px; line-height: 20px; color: #000; border-bottom: 2px solid #000; margin-bottom: 20px; padding-bottom: 2px; }
+.subA { font-family: 'Open Sans'; font-weight: 600; text-transform: uppercase; font-size: 20px; line-height: 20px; color: #000; border-bottom: 2px solid #000; margin-bottom: 20px; padding-bottom: 2px; }
 .subB { font-weight: 600; }
 ol { padding: 0 0 0 15px; }
 ol li { margin-bottom: 20px; }
@@ -1431,7 +1132,7 @@ input[type="submit"].ak-btn-short {
   width: auto;
   display: inline-block;
   background: black;
-  color: #9be053;
+  color: #ea1c29;
 }
 
 .ak-btn-search,
@@ -3060,21 +2761,24 @@ body.ak-pagetype-event_create .clear {
 ================================================================ */
 
 .clear { width:100%;height:0;float:none;clear:both;}
-/* body { font-family: "Oswald", sans-serif; } */
+/* body { font-family: "'Open Sans'", sans-serif; } */
 h2 {
-  color: #272F32;
+  color: #4a4a4a;
   margin: 6px 0 2px;
-  font-family:"Oswald";
+  font-family:"Brandon Grotesque", "Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 600;
+    letter-spacing: -1px;
 }
 h3 {
   color: #537882;
   font-weight:400;font-size:2em;
-  font-family:"Oswald";
+  font-family:"Brandon Grotesque", "Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    letter-spacing: -1px;
 }
 /* Used for paragraphs */
 p {
-  /*     font-weight: 400; */
-  color: #272F32;
+ font-weight:normal;
+  color: #272727;
 }
 
 .ak-submit-button, button, input[type="submit"] {
@@ -3082,23 +2786,22 @@ p {
   float:none;
   width:100%;
   border-radius:0;
-  background-color:#9be053;
-  color: black;
-  font-family:"Oswald";
+  background-color:#ea1c29;
+  color: #FFF;
   text-transform: uppercase;
-  font-weight:500;
-  font-size:2em;
   box-sizing: border-box;
-  padding:6px 4px 4px 4px;
-  height:auto;
-  line-height: 1.4em;
-  border: 1px solid black;
   text-decoration: none;
+    border: 0;
+    font-size: 1.3em;
+	    height: auto;
+    padding: 0.8em;
+    font-family: "Brandon Grotesque", "Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 .ak-submit-button:hover, button:hover, input[type="submit"]:hover {
-                                         background-color: rgba(155, 224, 83, 0.79);
-                                         color: #000 !important;
-                                         border: 1px solid black;
+                                         background-color: rgba(234, 28, 41, 0.79);
+                                         color: #FFF !important;
                                          transition-duration: 500ms;
                                          cursor:pointer;
                                        }
@@ -3160,15 +2863,6 @@ blockquote ul li {
   h2 { font-size:2.3em; line-height: 1.0em; }
 }
 
-@media only screen and (min-width: 500px) {
-  .ak-pagetype-signup #ak-fieldbox-last_name, .ak-pagetype-signup #ak-fieldbox-phone, .ak-pagetype-event_attend #ak-fieldbox-last_name, .ak-pagetype-event_attend #ak-fieldbox-phone  { width:49%; float:right;clear:right; }
-  .ak-pagetype-signup #ak-fieldbox-first_name, .ak-pagetype-signup #ak-fieldbox-zip, .ak-pagetype-event_attend #ak-fieldbox-first_name, .ak-pagetype-event_attend #ak-fieldbox-zip {
-    width:50%; float:left;clear:left;
-  }
-  .ak-pagetype-signup #ak-fieldbox-email, .ak-pagetype-event_attend #ak-fieldbox-email {
-    width:100%;display:block; float:none;clear:both;
-  }
-}
 
 /*
 @media only screen and (max-width: 500px) {
@@ -3188,7 +2882,7 @@ blockquote ul li {
 p.ak-event-title { line-height:40px;padding-top:10px; }
 p.ak-event-title a {
   /* color:#537882; */
-  font-family:"Oswald";
+  font-family:"Open Sans";
   font-weight:400;
 }
 p.ak-event-title a { font-size:2.3em; }
@@ -3232,8 +2926,6 @@ table.ak-event-table th { text-align:left; }
   .ak-page-footer { width: 1000px; margin: 0 auto; overflow: hidden; }
   .footer-org-logo { display: block; float: left; width: 50%; }
   .footer-fineprint { text-align: right; float: right; width: 50% }
-
-  .titlerow { margin-bottom: 25px; }
   
   #signup-story.ak-grid-col-6-of-12 {
     padding-right: 25px;
@@ -3255,11 +2947,11 @@ table.ak-event-table th { text-align:left; }
 .textBlue { color: #537983; }
 .textCyan { color: #9ec0c5; }
 .textRed { color: #ef3030; }
-.textA { font-family: Oswald, sans-serif; font-size: 34px; line-height: 30px; font-weight: 600; }
-.textB { font-family: Oswald, sans-serif; font-size: 20px; line-height: 20px; font-weight: 600; margin-bottom: 10px; text-align: center;}
+.textA { font-family: 'Open Sans', sans-serif; font-size: 34px; line-height: 30px; font-weight: 600; }
+.textB { font-family: 'Open Sans', sans-serif; font-size: 20px; line-height: 20px; font-weight: 600; margin-bottom: 10px; text-align: center;}
 
 /* === */
-.banding-black { background: #000; padding: 20px 0; margin-bottom: 20px;}
+.banding-black { background: #333; padding: 20px 0; margin-bottom: 20px;}
 @media only screen and (min-width: 750px) { .banding-black { margin-bottom: 40px; }}
 .banding-black h1,
 .banding-black h2,
@@ -3272,9 +2964,9 @@ table.ak-event-table th { text-align:left; }
   float: none;
   width: auto;
   border-radius: 0;
-  background-color: #9be053;
+  background-color: #ea1c29;
   color: black;
-  font-family: "Oswald";
+  font-family: "Open Sans";
   text-transform: uppercase;
   font-weight: 500;
   font-size: 26px;
@@ -3293,7 +2985,7 @@ table.ak-event-table th { text-align:left; }
   width: 100%;
   background-color: #000;
   color: #FFF;
-  font-family: "Oswald";
+  font-family: "Open Sans";
   text-transform: uppercase;
   font-weight: 500;
   font-size: 22px;
@@ -3314,8 +3006,8 @@ table.ak-event-table th { text-align:left; }
 .buttonA3.icon-twitter .icon { display: inline-block; width: 35px; height: 30px; background: url('https://s3.amazonaws.com/aktest-2011/images/icon-twitter.svg')  no-repeat; background-size: contain; vertical-align: top; margin: 8px 10px 0 0; }
 .buttonA3.icon-mapmarker { background: #000; text-indent: 0; }
 .buttonA3.icon-mapmarker:hover { background: #9ec0c5; }
-.buttonA3.icon-email { background-color: black; color: #9be053; border: 1px solid black; }
-.buttonA3.icon-email:hover { background-color: rgba(155, 224, 83, 0.79); color: black; }
+.buttonA3.icon-email { background-color: black; color: #ea1c29; border: 1px solid black; }
+.buttonA3.icon-email:hover { background-color: rgba(234, 28, 41, 0.79); color: black; }
 .buttonA3.icon-home { background: #000; }
 .buttonA3.icon-home:hover { background: #bb3328; }
 .buttonB1 { font-weight: bold; font-size: 12px; line-height: 20px; color: #000; text-transform: uppercase; display: inline-block; }
@@ -3323,7 +3015,6 @@ table.ak-event-table th { text-align:left; }
 
 /* signup.html
 ================================================================ */
-.ak-pagetype-signup h2 { margin-bottom: 10px}
 
 /* thanks.html
 ================================================================ */
