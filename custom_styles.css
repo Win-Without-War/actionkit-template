@@ -3056,19 +3056,17 @@ table.ak-event-table th { text-align:left; }
   width: 100%;
   background-color: #000;
   color: #FFF;
-  font-family: "Open Sans";
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 22px;
   box-sizing: border-box;
   height: 50px;
   line-height: 50px;
   letter-spacing: .6px;
   text-decoration: none;
-  text-align: left;
+  text-align: center;
 }
 .buttonA3:hover { color: #fff; transition: all 500ms; }
-.buttonA3 .box { display: block; max-width: 230px; margin: 0 auto; }
+.buttonA3 .box { display: block; margin: 0 auto; }
 .buttonA3.icon-fb { background: #3b5998; }
 .buttonA3.icon-fb:hover { background: #293d67; }
 .buttonA3.icon-fb .icon { display: inline-block; width: 30px; height: 30px; background: url('https://s3.amazonaws.com/aktest-2011/images/icon-fb.svg') no-repeat; background-size: contain; vertical-align: top; margin: 8px 12px 0 0; }
