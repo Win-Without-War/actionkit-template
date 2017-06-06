@@ -14,7 +14,7 @@
  */
 
 html {
-  font-family: "Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-family: "proxima-nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   -ms-text-size-adjust: 100%; /* 3 */
   -webkit-text-size-adjust: 100%; /* 3 */
 }
@@ -465,7 +465,7 @@ figure { margin: 1em 40px; } /* Add the correct margin in IE 8. */
 hr { box-sizing: content-box; /* 1 */ height: 0; /* 1 */ overflow: visible; /* 2 */ } /* 1. Add the correct box sizing in Firefox. 2. Show the overflow in Edge and IE. */
 
 html {
-  font-family:"Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-family:"proxima-nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   font-size: 15.5px;
   font-weight: 300;
   line-height: 22px;
@@ -1217,7 +1217,7 @@ a.ak-share-button {
     height: auto;
     padding: 0.8em 1.2em;
 	line-height: 2.6em;
-    font-family: "Brandon Grotesque", "Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-family: "brandon-grotesque", "proxima-nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -2827,14 +2827,14 @@ body.ak-pagetype-event_create .clear {
 h2 {
   color: #4a4a4a;
   margin: 6px 0 2px;
-  font-family:"Brandon Grotesque", "Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-family:"brandon-grotesque", "proxima-nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-weight: 600;
     letter-spacing: -1px;
 }
 h3 {
   color: #537882;
   font-weight:400;font-size:2em;
-  font-family:"Brandon Grotesque", "Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  font-family:"brandon-grotesque", "proxima-nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
     letter-spacing: -1px;
 }
 /* Used for paragraphs */
@@ -2857,7 +2857,7 @@ p {
     font-size: 1.3em;
 	    height: auto;
     padding: 0.8em;
-    font-family: "Brandon Grotesque", "Proxima Nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    font-family: "brandon-grotesque", "proxima-nova", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
     font-weight: 600;
     letter-spacing: 1px;
 }
