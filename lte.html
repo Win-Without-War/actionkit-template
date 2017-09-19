@@ -289,10 +289,8 @@
                                 </label>
                             </th>
                             <td>
-                                <textarea id="letter_text" name="letter_text" class="ak-large-message" data-wordcount="250,350">
-								
-							</textarea>
-							<div style="display:none;">{{ form.talking_points|striptags|linebreaks }}</div>
+                                <textarea id="letter_text" name="letter_text" class="ak-large-message" data-wordcount="250,350"></textarea>
+							<div style="display:none;">{{ form.talking_points|linebreaks|striptags }}</div>
                                 <div class="ak-counter-area">
                                     <span style="font-weight: bold" class="ak-counter-words">0</span> Words.  
                                     Most newspapers only consider letters of 250 to 350 words.
