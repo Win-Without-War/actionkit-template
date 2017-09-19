@@ -128,7 +128,16 @@
             <script type="text/ak-template" for="ak-lte-help">
 
                 <ul>
-            
+                    {% if form.talking_points %}
+                    <li>
+                        <div class="ak-accordion-head">
+                            Talking Points
+                        </div>
+                        <div>
+                            {% include_tmpl form.talking_points %}
+                        </div>
+                    </li>
+                    {% endif %}
                     {% if form.writing_tips %}
                     <li>
                         <div class="ak-accordion-head">
@@ -280,11 +289,7 @@
                                 </label>
                             </th>
                             <td>
-                                <textarea id="letter_text" name="letter_text" class="ak-large-message" data-wordcount="250,350"> {% if form.talking_points %}
-               
-                            {% include_tmpl form.talking_points %}
-                      
-                    {% endif %}</textarea>
+                                <textarea id="letter_text" name="letter_text" class="ak-large-message" data-wordcount="250,350"></textarea>
                                 <div class="ak-counter-area">
                                     <span style="font-weight: bold" class="ak-counter-words">0</span> Words.  
                                     Most newspapers only consider letters of 250 to 350 words.
